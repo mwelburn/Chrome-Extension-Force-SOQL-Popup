@@ -9,3 +9,5 @@ Helpful links:
 - [Getting Started: Building a Chrome Extension](http://developer.chrome.com/extensions/getstarted.html)
 - [Tutorial: Debugging](http://developer.chrome.com/extensions/tut_debugging.html)
 - [The Silver Lining - Developing Chrome Extensions for Salesforce](http://th3silverlining.com/2013/09/14/developing-chrome-extensions-for-salesforce/)
+
+![Force.com SOQL Popup](http://mwelburn.github.com/Chrome-Extension-Force-SOQL-Popup/images/force-soql-popup.png)
