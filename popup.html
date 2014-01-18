@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Salesforce SOQL</title>
+    <style>
+      body {
+        min-width: 600px;
+        overflow-x: hidden;
+      }
+
+      img {
+        margin: 5px;
+        border: 2px solid black;
+        vertical-align: middle;
+        width: 75px;
+        height: 75px;
+      }
+    </style>
+    <script src="js/jquery.js"></script>
+    <script src="popup.js"></script>
+  </head>
+  <body>
+    <label for="query">Query:</label>
+    <textarea id="query" name="query">SELECT Id, CaseNumber FROM Case</textarea>
+    <input type="button" id="submit-query" value="Submit Query"></input>
+    <div id="query-results"></div>
+  </body>
+</html>
+

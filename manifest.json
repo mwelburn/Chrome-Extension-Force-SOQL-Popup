@@ -1,0 +1,32 @@
+{
+  "manifest_version": 2,
+
+  "name" : "Force.com SOQL Popup",
+  "version" : "0.1",
+  "description" : "This extension allows you to query the currently logged in Force.com organization.",
+  "author" : "Michael Welburn",
+
+  "permissions" : [
+    "tabs", 
+    "https://*.force.com/*", 
+    "https://*.salesforce.com/*"
+  ],
+  "browser_action" : {
+    "default_icon" : "icon.png",
+    "default_popup" : "popup.html"
+  },
+  "content_scripts" : [{
+    "js": [ 
+      "js/jquery.js",
+      "js/forcetk.js",
+      "js/contentscript.js"
+    ],
+    "matches" : [
+      "https://*.salesforce.com/*",
+      "https://*.force.com/*"
+    ]
+  }],
+  "web_accessible_resources": [
+    "js/jquery-2.0.3.min.map"
+  ]
+}
